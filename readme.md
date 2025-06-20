@@ -10,7 +10,7 @@ My name is Lucas Rassbach and I am a software engineer, and part time masters st
 
 ## Overview
 
-Brick Force One (BF1) is a quadcopter built with RaspberryPi Zero W and Arduino Uno. RaspberryPi manages the flight contoller, and is expandable to in the future receive commands from a seperate control module. Arduino manages the motor speeds and controls.
+Brick Force One (BF1) is a quadcopter built with RaspberryPi Zero W and Arduino Uno. RaspberryPi manages the flight contoller, and is extendable to in the future receive commands from a seperate control module. Arduino manages the motor speeds and controls.
 
 The goal of this project is to:
 
@@ -39,7 +39,7 @@ The frame is built from aluminum cut from an old Washington state license plate.
 There are 4 2200 KV Brushless Motors with ESC modules that provide all thrust for BF1. These motors were chosen after early testing with the dual copter demonstrated sufficient thrust produced. The built in ESC modules allow for easy integration with Arduino's Servo.h library.
 
 #### Gyroscope/Accelerometer
-The MPU6050 module is the gyroscope chosen due to its cheap price point and wide support. Two MPU6050s were procured for this project, one presoldered and wired and one unsoldered. This was a fun way to start soldering, which is important because several unintroduced components will require soldering.
+The MPU6050 module is the gyroscope chosen due to its cheap price point and wide support. Two MPU6050s were procured for this project, one presoldered and wired and one unsoldered. This was a fun way to start soldering, which is important because several yet-to-be introduced components will require soldering.
 
 ![MPU6050](solder.jpg)
 
