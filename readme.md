@@ -44,7 +44,9 @@ The MPU6050 module is the gyroscope chosen due to its cheap price point and wide
 ![MPU6050](solder.jpg)
 
 #### Breadboard
-I am using the breadboard for now until I get better at soldering. Faster time to market!
+I am using the breadboard for now until I get better at soldering. Faster time to market! Circuitry labels needed TODO
+
+![Motor Circuits](BF1_circuit.png)
 
 #### Battery
 TODO
